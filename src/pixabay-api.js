@@ -1,5 +1,4 @@
-// import axios from 'axios';
-const axios = require('axios').default;
+import axios from 'axios';
 
 export class PixabayApi {
   #BASE_URL = 'https://pixabay.com/api';
